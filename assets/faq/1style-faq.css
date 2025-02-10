@@ -1,0 +1,175 @@
+.faq-heading{
+ border-bottom: #777;
+ padding: 20px 60px;
+}
+.faq-container{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+}
+.faq-page {
+ cursor: pointer;
+ width: 100%;
+ border: none;
+ outline: none;
+ transition: 0.4s;
+}
+.hr-line{
+ width: 100%;
+ margin: auto;
+}
+
+.aligents_texts,
+.hotel_discription {
+ font-family: 'Asap', sans-serif;
+ }
+
+.aligents_texts h2,
+.hotel_discription h2{
+ background-color: #efefef!important;
+ background: #f7f7f7;
+ position: relative;
+ padding: 8px 8px;
+ font-size: 16px;
+ color: #093562;
+ margin: 12px 0 12px 0;
+ font-weight: 600;
+ border-left: solid 4px #c72026;
+ }
+
+.aligents_texts blockquote,
+.hotel_discription blockquote {
+ display: none;
+ position: relative;
+ font-size: 14px;
+ color: #333;
+ line-height: 22px;
+ text-align: justify;
+ margin: 0 0 6px 0;
+ font-weight: 400;
+ border: none;
+ }
+
+.aligents_texts blockquote p,
+.hotel_discription blockquote p {
+ font-size: 14px;
+ color: #333;
+ line-height: 22px;
+ text-align: justify;
+ margin: 0 0 6px 0;
+ font-weight: 400;
+ }
+
+.aligents_texts blockquote ul,
+.hotel_discription blockquote ul {
+ margin-left: none;
+ padding: 0;
+ list-style: none;
+ font-size: 14px;
+ color: #333;
+ line-height: 22px;
+ text-align: justify;
+ margin: 0 0 6px 0;
+ font-weight: 400;
+ }
+
+.aligents_texts blockquote ul li,
+.hotel_discription blockquote ul li {
+ list-style: none;
+ font-size: 14px;
+ color: #333;
+ line-height: 22px;
+ text-align: justify;
+ margin: 0 0 6px 0;
+ font-weight: 400;
+ }
+
+blockquote{
+ margin: auto;
+ width: 100%; 
+ padding: auto;
+}
+
+.faq-page.active,
+.faq-page:hover {
+    color: #c70707!important;
+}
+
+blockquote {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+h2:after {
+    content: '\02795';    /* Unicode character for "plus" sign (+) */
+    font-size: 9px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+    padding-top: 6px;
+}
+/*
+.active:after {
+    content: "\2796";   
+}
+*/
+/*=================================================*/
+/*==== FAQ Hotel Page ====*/
+body{
+    /*font-family: 'Work Sans', sans-serif;*/
+}
+.faq-heading{
+    border-bottom: #777;
+    padding: 20px 60px;
+}
+.faq-container{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.hr-line{
+  width: 100%;
+  margin: auto;
+}
+.question {
+    color: #444;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+	font-size: 15px;
+	font-weight: 600;
+}
+.answer{
+    margin: auto;
+    width: 100%; 
+    padding: auto;   
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+.active,
+.question:hover {
+    background-color: #efefef!important;
+	color: #093562!important;
+}
+.answer p {
+	margin:0 0 10px 25px;
+	font-size:15px;
+}
+.question:after {
+    content: '\02795';
+    font-size: 9px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+.question.active:after {
+    content: "\2796";
+}
